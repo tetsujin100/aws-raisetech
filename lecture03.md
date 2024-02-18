@@ -1,6 +1,6 @@
 # 第３回講義課題
 ## サンプルアプリケーション起動画面
- ![rails s](/aws-raisetech/image/lecture03-image/rails-s.png)
+![rails s](/aws-raisetech/image/lecture03-image/rails-s.png)
 ## APサーバーについて
  - APサーバーの名前とバージョン
 　 Puma version:5.6.8
