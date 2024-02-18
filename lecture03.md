@@ -3,21 +3,21 @@
 ![](/images/lecture03-images/rails-s.png)
 ## APサーバーについて
  - APサーバーの名前とバージョン
-  - Puma version:5.6.8
+   - Puma version:5.6.8
 　 ![](/images/lecture03-images/apserver.png)
  - APサーバーを終了させた場合、引き続きアクセス可能か。
-  - アクセスできなくなる。
+   - アクセスできなくなる。
 　 ![](/images/lecture03-images/apserver-stop.png)
 
 ## DBサーバーについて
  - DBサーバーの名前とバージョン
-  - Mysql version:8.3.0 for macos14.2 on arm64 (Homebrew)
+   - Mysql version:8.3.0 for macos14.2 on arm64 (Homebrew)
 　 ![](/images/lecture03-images/mysql-ver.png)
  - DBサーバーと終了させた場合、引き続きアクセス可能か。
-  - アクセスできなくなる。
+   - アクセスできなくなる。
 　 ![](/images/lecture03-images/dB-server-stopped.png)
  - Railsの構成管理ツールの名前
-  - Bundler
+   - Bundler
 
 ## 学んだこと、感じたこと
  - Webアプリケーションは、Webブラウザ上で利用できるアプリケーションのこと
