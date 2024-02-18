@@ -1,21 +1,21 @@
 # 第３回講義課題
 ## サンプルアプリケーション起動画面
-![rails s](/aws-raisetech/image/lecture03-image/rails-s.png)
+![rails s](/image/lecture03-image/rails-s.png)
 ## APサーバーについて
  - APサーバーの名前とバージョン
 　 Puma version:5.6.8
-　 ![ap-server](/aws-raisetech/image/lecture03-image/apserver.png)
+　 ![ap-server](/image/lecture03-image/apserver.png)
  - APサーバーを終了させた場合、引き続きアクセス可能か。
 　 アクセスできなくなる。
-　 ![apserver-stop](/aws-raisetech/image/lecture03-image/apserver-stop.png)
+　 ![apserver-stop](/image/lecture03-image/apserver-stop.png)
 
 ## DBサーバーについて
  - DBサーバーの名前とバージョン
 　 Mysql version:8.3.0 for macos14.2 on arm64 (Homebrew)
-　 ![db-server](/aws-raisetech/image/lecture03-image/mysql-ver.png)
+　 ![db-server](/image/lecture03-image/mysql-ver.png)
  - DBサーバーと終了させた場合、引き続きアクセス可能か。
 　 アクセスできなくなる。
-　 ![dbserver-stop](/aws-raisetech/image/lecture03-image/dB-server-stopped.png)
+　 ![dbserver-stop](/image/lecture03-image/dB-server-stopped.png)
  - Railsの構成管理ツールの名前
 　 Bundler
 
