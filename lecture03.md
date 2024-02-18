@@ -1,0 +1,37 @@
+# 第３回講義課題
+## サンプルアプリケーション起動画面
+![rails s](/aws-raisetech/image/lecture03-image/rails-s.png)
+## APサーバーについて
+ - APサーバーの名前とバージョン
+　 Puma version:5.6.8
+　 ![ap-server](/aws-raisetech/image/lecture03-image/apserver.png)
+ - APサーバーを終了させた場合、引き続きアクセス可能か。
+　 アクセスできなくなる。
+　 ![apserver-stop](/aws-raisetech/image/lecture03-image/apserver-stop.png)
+
+## DBサーバーについて
+ - DBサーバーの名前とバージョン
+　 Mysql version:8.3.0 for macos14.2 on arm64 (Homebrew)
+　 ![db-server](/aws-raisetech/image/lecture03-image/mysql-ver.png)
+ - DBサーバーと終了させた場合、引き続きアクセス可能か。
+　 アクセスできなくなる。
+　 ![dbserver-stop](/aws-raisetech/image/lecture03-image/dB-server-stopped.png)
+ - Railsの構成管理ツールの名前
+　 Bundler
+
+## 学んだこと、感じたこと
+ - Webアプリケーションは、Webブラウザ上で利用できるアプリケーションのこと
+ - クライアント（利用者）とサーバー（提供者）の構成
+ - Webアプリケーションのリクエストは、HTTPリクエストが前提。レスポンスは、HTTPレスポンスとなる
+ - リクエストとレスポンスのやりとりを「通信」という。通信フォーマットが存在し、JSONやXMLがある
+ - HTTPメソッドはGETやPOSTなどがあり、リクエストを送る際に行いたい処理を伝えるときに使用する 
+ - HTML/CSS/JavaScriptなどを利用し、画面描画や文字色、アニメーション表現を行う
+ - システム開発の流れでよく言われるのが「プロセスモデル」
+ - 開発のなかで、まず「要件」があり、それを実現するための作り方や体制などを決める
+ - 外部ライブラリとは「他の誰か」が作った「便利機能」の集まり
+ - 構成管理ツールを用いて、外部ライブラリの管理する
+ - アプリケーションサーバーはRubyなどのプログラムで作られたアプリケーションを実行するために必要なサーバー
+ - DBとはデータを整理して検索しやすくした情報の集まり
+ - SQLとはDBに対してデータの操作を行うための「言語」
+ - サンプルアプリケーションをローカル環境で起動させるには、環境差を合わせる作業が必要だった
+ - インフラの上で動くWebアプリケーションの仕組みも理解しておくことで、アプリが止まった際に原因特定を行うことがスムーズになる
