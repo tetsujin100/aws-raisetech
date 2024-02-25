@@ -2,6 +2,9 @@
 ## VPC
 ![](/images/lecture04-images/vpc.png)
 
+## サブネット
+![](/images/lecture04-images/subnet.png)
+
 ## EC2
 ![](/images/lecture04-images/ec2.png)
 ![](/images/lecture04-images/ec2-sg.png)
