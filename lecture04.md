@@ -5,6 +5,9 @@
 ## サブネット
 ![](/images/lecture04-images/subnet2.png)
 
+## サブネットグループ
+![](/images/lecture04-images/subnet-g.png)
+
 ## EC2
 ![](/images/lecture04-images/ec2.png)
 ![](/images/lecture04-images/ec2-sg-out2.png)
