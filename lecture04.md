@@ -3,7 +3,7 @@
 ![](/images/lecture04-images/vpc-3.png)
 
 ## サブネット
-![](/images/lecture04-images/vpc-r.png)
+![](/images/lecture04-images/subnet-3.png)
 
 ## サブネットグループ
 ![](/images/lecture04-images/rds-subnet-g.png)
