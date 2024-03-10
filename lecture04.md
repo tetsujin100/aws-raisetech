@@ -20,4 +20,4 @@
 ![](/images/lecture04-images/sg-rds-ec2.png)
 
 ## EC2からRDSへの接続確認
-![](/images/lecture04-images/ec2-rds-connnection.png)
+![](/images/lecture04-images/ec2-rds-connection.png)
